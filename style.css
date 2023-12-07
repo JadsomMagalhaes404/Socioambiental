@@ -120,3 +120,115 @@ header{
     padding-top: 3%;
     font-size: 1.2em;
 }
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-conteiner img {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .conteiner-navbar {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        margin-top: 2%;
+    }
+
+    .conteiner-home {
+        padding: 2%;
+    }
+
+    .conteiner-img img {
+        border-bottom: none;
+        object-fit: cover; 
+        height: 60vh; 
+    }
+
+    .conteiner-importancia {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .importancia-gr,
+    .img-gr {
+        width: 100%;
+        text-align: center;
+    }
+
+    #conteiner-consequencia,
+    #tec-inovacoes {
+        padding: 2% 5%;
+    }
+
+    .consequencia-gr,
+    #tec-inovacoes {
+        text-align: center;
+    }
+
+    .img-consequencia img {
+        margin-top: 5%;
+    }
+
+    .registro-conteiner {
+        padding-bottom: 5%;
+    }
+
+    #conteiner-consequencia {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: right;
+        padding: 5%;
+    }
+
+    .img-consequencia img {
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    .consequencia-gr {
+        padding: 0;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .conteiner-navbar a {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .conteiner-home-text {
+        padding: 2% 0%;
+        text-align: right;
+    }
+
+    .importancia-gr,
+    .img-gr {
+        width: 100%;
+        text-align: right;
+        margin-top: 5%;
+    }
+
+    #conteiner-consequencia {
+        flex-direction: column;
+        align-items: center;
+        text-align: right;
+    }
+
+    .img-consequencia img {
+        margin-top: 5%;
+    }
+
+    #tec-inovacoes p,
+    .otimizacao-conteiner p,
+    .coleta-conteiner p,
+    .emissao-conteiner p,
+    .registro-conteiner p {
+        font-size: 1em;
+        text-align: right;
+    }
+}
